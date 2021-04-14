@@ -1,5 +1,14 @@
-<h1> Flats </h1>
+<div class="container">
+  <h1> All our flats </h1>
 
-<% @flats.each do |flat| %>
-  <p><%= flat.name %></p>
-<% end %>
+  <div>
+    <% @flats.each do |flat| %>
+      <div>
+        <p><%= flat.name %></p>
+
+        <i class="fas fa-user-friends"></i>
+        <i class="fas fa-euro-sign"></i>
+      </div>
+    <% end %>
+  </div>
+</div>
