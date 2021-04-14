@@ -1,14 +1,19 @@
-<div class="container">
+<div class="container mt-5 mb-5">
   <h1> All our flats </h1>
+</div>
 
-  <div>
+<div class="container">
+  <div class="box-flex">
     <% @flats.each do |flat| %>
-      <div>
+    <div class="box-flat">
+      <div class="flat-info">
         <p><%= flat.name %></p>
-
-        <i class="fas fa-user-friends"></i>
-        <i class="fas fa-euro-sign"></i>
+        <p><%= flat.address %></p>
+        <i class="fas fa-user-friends user-icon"><%= flat.number_of_guests %></i>
+        <i class="fas fa-euro-sign user-icon"><%= flat.price_per_night %></i>
       </div>
-    <% end %>
-  </div>
+      <p class="btn-more-info">More info</p>
+    </div>
+      <% end %>
+   </div>
 </div>

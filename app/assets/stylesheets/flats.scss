@@ -1,3 +1,38 @@
 // Place all the styles related to the Flats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.box-flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 10px;
+}
+
+.box-flat{
+  margin: 10px 0;
+  border: 1px solid #E8E8E8;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.flat-info{
+  padding: 20px;
+  background-color: #F5F5F5;
+}
+
+.user-icon{
+  margin-right: 20px;
+}
+
+.btn-more-info{
+  padding: 10px 20px 5px;
+}
+
+.fa-user-friends:before{
+  margin-right: 10px;
+}
+
+.fa-euro-sign:before{
+  margin-right: 10px;
+}
