@@ -29,8 +29,35 @@
   margin-right: 20px;
 }
 
+.more-info{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.my-btn{
+  padding: 20px;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: #fff;
+  opacity: 1;
+}
+
+.my-btn:hover{
+  color: #fff;
+  opacity: 0.9;
+}
+
+.btn-remove{
+  background-color: #c70039;
+}
+
+.btn-edit{
+  background-color: #16c79a;
+}
+
 .btn-more-info{
-  padding: 10px 20px 5px;
+  background-color: #19456b;
 }
 
 .fa-user-friends:before{
