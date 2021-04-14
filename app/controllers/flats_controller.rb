@@ -3,4 +3,5 @@ class FlatsController < ApplicationController
     @flats = Flat.all
   end
 
+
 end
