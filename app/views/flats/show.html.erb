@@ -1,15 +1,38 @@
-<div>
+<div class="background-flat">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="flat">
+          <h1>
+            <%= @flats.name %>
+          </h1>
+          <p><%= @flats.address %></p>
+        </div>
+        <div class="flat">
+          <h3>A bit more about this flat</h3>
+          <p><%= @flats.description %></p>
+          <img src="">
+        </div>
+        <div class="flat">
+          <h3>Details</h3>
+          <p><%= @flats.number_of_guests %></p>
+          <p><%= @flats.price_per_night %></p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="flat">
+          <p>Book this place!</p>
+          <p>From: <input id="date" type="date"></p>
+          <p>To: <input id="date" type="date"></p>
+          <input type="submit" value="Book">
+        </div>
 
+        <div class="flat">
+          <p>Share</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-<h1>
-  <%= @flats.name %>
-</h1>
-<p><%= @flats.address %></p>
-
-<h3>A bit more about this flat</h3>
-<p><%= @flats.description %></p>
-
-<h3>Details</h3>
-<p><%= @flats.number_of_guests %></p>
-<p><%= @flats.price_per_night %></p>
