@@ -6,6 +6,7 @@
   <div class="box-flex">
     <% @flats.each do |flat| %>
     <div class="box-flat">
+      <img class="main-flat-image" src="<%= flat.image %>">
       <div class="flat-info mb-2">
         <p><%= flat.name %></p>
         <p><%= flat.address %></p>
