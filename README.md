@@ -1,5 +1,5 @@
 
-# Last Articles
+# Simple AirBnB
 
 ![main banner](https://github.com/thiagohrcosta/rails-simple-airbnb/blob/master/public/img/flatMainImageFix.png?raw=true)
 
