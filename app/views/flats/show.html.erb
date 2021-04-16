@@ -17,7 +17,7 @@
       </div>
       <div class="col-lg-4">
         <div class="flat flat-margin">
-          <p>Book this place!</p>
+          <p class="text-p">Book this place!</p>
           <p><span class="data-input">From:</span><input id="date" type="date"></p>
           <p><span class="data-input">To: </span> <input id="date" type="date"></p>
           <span>
@@ -26,18 +26,24 @@
         </div>
 
         <div class="flat">
-          <h3>Details</h3>
-          <p><%= @flats.number_of_guests %></p>
-          <p><%= @flats.price_per_night %></p>
+          <h2>Details</h2>
+          <div class="details-icons d-flex">
+            <p><i class="fas fa-user-friends"></i><%= @flats.number_of_guests %></p>
+            <p><i class="fas fa-euro-sign"></i><%= @flats.price_per_night %></p>
+          </div>
         </div>
 
         <div class="flat">
-          <div>
-          <p>Share</p>
-          <i class="fab fa-facebook-square fa-2x"></i>
-          <i class="fab fa-twitter-square fa-2x"></i>
-          <i class="fas fa-envelope-square fa-2x"></i>
-          <i class="fab fa-instagram-square fa-2x"></i>
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="text-p">Share</p>
+            </div>
+            <div class="col-lg-6 social-icons">
+              <i class="fab fa-facebook-square fa-2x"></i>
+              <i class="fab fa-twitter-square fa-2x"></i>
+              <i class="fas fa-envelope-square fa-2x"></i>
+              <i class="fab fa-instagram-square fa-2x"></i>
+            </div>
 
           </div>
 
