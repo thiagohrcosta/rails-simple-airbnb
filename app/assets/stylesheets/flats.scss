@@ -2,6 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+body{
+}
+
 //Navbar css
 
 .custom-navbar{
@@ -206,4 +209,23 @@
   padding: 0px 10px;
   font-size: 18px;
   font-weight: bold;
+}
+
+// add and edit flats
+
+.box-inputs{
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #dddddd;
+  width: 720px;
+  margin: 50px auto;
+}
+
+.box-inputs h1{
+  text-align: center;
+  margin: 5px 0;
+}
+
+.img-add{
+  width: 100%;
 }
