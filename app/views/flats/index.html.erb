@@ -1,14 +1,25 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1352&q=80);">
+  <div class="container">
+    <h1>A new way to travel. A new way to live!</h1>
+    <p>Change the way you travel and rent rooms around the world.</p>
+    <span class="btn-main">
+      <a class="btn-my-flat" href="#flats-id">Apply now</a>
+    </span>
+  </div>
+</div>
+
+
 <div class="container mt-5 mb-5">
   <h1> All our flats (<%= @flats.count %>)</h1>
 </div>
 
 <div class="container">
-  <div class="box-flex">
+  <div id="flats-id" class="box-flex">
     <% @flats.each do |flat| %>
     <div class="box-flat">
       <img class="main-flat-image" src="<%= flat.image %>">
       <div class="flat-info mb-2">
-        <p><%= flat.name %></p>
+        <p class="flat-title-index"><%= flat.name %></p>
         <p><%= flat.address %></p>
         <i class="fas fa-user-friends user-icon"><%= flat.number_of_guests %></i>
         <i class="fas fa-euro-sign user-icon"><%= flat.price_per_night %></i>
