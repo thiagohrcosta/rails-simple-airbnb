@@ -42,7 +42,7 @@ Download or clone it. . Then run in the main folder the command `rails server`. 
 ## What user can do?
 As user you can manipulate all **CRUD** operations like:
 
- - Get more information about some flats;
+ - Get more information about some flat;
  - Create new flat;
  - Edit a flat;
  - Delete a flat;
