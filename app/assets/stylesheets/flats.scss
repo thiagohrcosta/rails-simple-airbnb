@@ -2,6 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+@media (min-width: 920px)
+{
+  .flat-margin{
+    margin-top: 450px !important;
+  }
+}
+
+@media (min-width: 1280px)
+{
+  .flat-margin{
+    margin-top: 450px !important;
+  }
+}
+
 body{
 }
 
