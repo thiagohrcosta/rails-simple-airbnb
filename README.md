@@ -51,14 +51,33 @@ As user you can manipulate all **CRUD** operations like:
 
  **April 14**
 
-   - Project created;
-
-
+      - Project created;
+      - Flat model and flat controller created;
+      - Adding routes using resources;
+      - Using Seeds to populate DB;
+      - Adding bootstrap;
+      - Adding jquery popper;
+      - Addim simple_for, font-awesome-sass and autoprefixer;
+      - Creating simple_for with bootstrap;
+      - Adding CSS to index page;
+      - Show page created;
 
 **April 15**
 
-      -
+      - Adding information on show page;
+      - Adding image to test map;
+      - Edit flat created;
+      - Adding font-awesome icons;
+      - Adding image and update controller;
+      - Adding update action on Flat controller;
+      - Display dynamic image on each flat;
+      - Display flat image on index page;
+      - Update readme;
 
 **April 16**
 
-      -
+      - Adding CSS and font-awesome to details on show page;
+      - Navbar added;
+      - CSS to edit a flat added;
+      - CSS to create a flat added;
+      - Test some media queries;
