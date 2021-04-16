@@ -4,6 +4,31 @@
 
 //Navbar css
 
+.custom-navbar{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-navbar{
+  padding: 10px;
+}
+
+.btn-add{
+  border-radius: 20px;
+  padding: 10px 25px;
+  border: 1px solid black;
+}
+
+.btn-format a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn-format a:hover{
+  color: #000000;
+}
+
 // index banner css
 
 .banner {
