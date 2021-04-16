@@ -1,8 +1,9 @@
+<!-- passar o estilo inline no flat style="background-image: url(= codigo >) -->
 <div class="background-flat">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
-        <div class="flat">
+        <div class="flat flat-margin">
           <h1>
             <%= @flats.name %>
           </h1>
@@ -13,19 +14,24 @@
           <p><%= @flats.description %></p>
           <img class="map-image" src="https://github.com/thiagohrcosta/rails-simple-airbnb/blob/master/public/img/map1.png?raw=true">
         </div>
-        <div class="flat">
-          <h3>Details</h3>
-          <p><%= @flats.number_of_guests %></p>
-          <p><%= @flats.price_per_night %></p>
-        </div>
       </div>
       <div class="col-lg-4">
-        <div class="flat">
+        <div class="flat flat-margin">
           <p>Book this place!</p>
-          <p>From: <input id="date" type="date"></p>
-          <p>To: <input id="date" type="date"></p>
-          <input type="submit" value="Book">
+          <p><span class="data-input">From:</span><input id="date" type="date"></p>
+          <p><span class="data-input">To: </span> <input id="date" type="date"></p>
+          <span>
+            <p class="btn-submit">Book</p>
+          </span>
+
         </div>
+
+          <div class="flat">
+            <h3>Details</h3>
+            <p><%= @flats.number_of_guests %></p>
+            <p><%= @flats.price_per_night %></p>
+          </div>
+
 
         <div class="flat">
           <p>Share</p>
